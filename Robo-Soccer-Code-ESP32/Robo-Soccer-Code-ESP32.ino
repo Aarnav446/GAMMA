@@ -17,7 +17,7 @@ int L2PWM = 22;
 
 void setup() {
   Serial.begin(115200);
-  serialBT.begin("My Soccer Bot YT");  //Your BOT Name
+  serialBT.begin("GAMMA"); 
   pinMode(R1PWM, OUTPUT);
   pinMode(R2PWM, OUTPUT);
   pinMode(L1PWM, OUTPUT);
