@@ -20,7 +20,7 @@ int L2PWM = 22;  // Left motor backward
 
 void setup() {
   Serial.begin(115200);
-  serialBT.begin("GAMMA");
+  serialBT.begin("Atomix Gamma");
   
   pinMode(R1PWM, OUTPUT);
   pinMode(R2PWM, OUTPUT);
